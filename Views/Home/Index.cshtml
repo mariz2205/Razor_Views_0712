@@ -1,0 +1,65 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<html>
+    <head>
+        <style>
+            table, th, td{
+                border:1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="text-center">
+            <h1 class="display-4">Information Website</h1> 
+            <br />
+        </div>
+
+        <div>
+            <table>
+                <tr>
+                    <th>No. Item</th>
+                    <th>Favorite Fruits</th>
+                </tr>
+                <tr>
+                    <td>1.</td>
+                    <td>Mango</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>Banana</td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>Apple</td>
+                </tr>
+            </table>
+            <br />
+
+            <form>
+                <input type="text" id="subject" placeholder="subject" />
+                <br /> <br />
+
+                <input type="checkbox" id="street" name="street1" value="Kalawakan" />
+                <label for="street1"> Kalawakan</label>
+                <input type="checkbox" id="street" name="street2" value="San Roque" />
+                <label for="street2"> San Roque</label>
+                <input type="checkbox" id="street" name="street3" value="Malanday" />
+                <label for="street3"> Malanday</label>
+                <br /> <br />
+
+                <textarea placeholder="Comment about yourself" rows="2" cols="40">
+                I love diffrent shades of green.
+                </textarea>
+                <br /> <br />
+                <h2>Favorite Songs</h2>
+                <ul>
+                    <li>Kiss me</li>
+                    <li>Dive</li>
+                    <li>Clean</li>
+                </ul>
+            </form>
+        </div>
+</body>
+</html>

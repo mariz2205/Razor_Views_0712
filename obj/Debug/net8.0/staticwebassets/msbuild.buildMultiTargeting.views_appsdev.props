@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\views_appsdev.props" />
+</Project>
